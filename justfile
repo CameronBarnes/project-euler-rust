@@ -10,7 +10,7 @@ bench-all:
 		cargo bench -q > benchmarks.txt
 
 bench problem:
-		cargo bench --bench problem-{{problem}}
+		cargo bench --bench problem-{{problem}}-bench
 
 test-all:
 		cargo nextest r
