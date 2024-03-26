@@ -4,7 +4,7 @@ use criterion::{
 use problem_1::*;
 
 fn criterion_benchmark(c: &mut Criterion) {
-    c.bench_function("solve", |b| b.iter(|| solve()));
+    c.bench_function("solve", |b| b.iter(solve));
 }
 
 criterion_group!(benches, criterion_benchmark);

@@ -1,7 +1,8 @@
 
 #[tracing::instrument]
 pub fn solve() -> String {
-    todo!("problem-1 solution")
+    let result: usize = (3..1000).filter(|x| x % 3 == 0 || x % 5 == 0).sum();
+    result.to_string()
 }
 
 #[cfg(test)]
@@ -10,7 +11,6 @@ mod tests {
 
     #[test]
     fn test_solve() {
-        todo!("Havent built test yet");
-        assert_eq!("", solve());
+        assert_eq!("233168", solve());
     }
 }

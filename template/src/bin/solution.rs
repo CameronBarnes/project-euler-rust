@@ -1,4 +1,4 @@
-use {{crate-name}}::solve;
+use {{crate_name}}::solve;
 
 #[tracing::instrument]
 fn main() {
