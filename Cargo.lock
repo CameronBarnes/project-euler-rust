@@ -474,6 +474,18 @@ dependencies = [
 ]
 
 [[package]]
+name = "problem-11"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "criterion",
+ "itertools 0.12.1",
+ "rstest",
+ "tracing",
+ "tracing-subscriber",
+]
+
+[[package]]
 name = "problem-2"
 version = "0.1.0"
 dependencies = [
